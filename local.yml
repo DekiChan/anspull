@@ -8,4 +8,4 @@
       owner: root
       group: root
   - name: run example app
-    shell: /tmp/test/app.sh
+    shell: /tmp/test_app/app.sh
