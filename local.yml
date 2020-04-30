@@ -4,7 +4,7 @@
   - name: install example application
     copy:
       src: test_app
-      dest: /tmp/test_app
+      dest: /tmp
       owner: root
       group: root
   - name: run example app
