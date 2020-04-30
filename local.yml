@@ -3,7 +3,7 @@
   tasks:
   - name: install example application
     copy:
-      src: test_app/app.sh
+      src: test_app
       dest: /tmp/test_app
       owner: root
       group: root
