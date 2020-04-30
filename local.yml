@@ -9,4 +9,6 @@
       group: root
       mode: preserve
   - name: run example app
-    shell: chmod +x /tmp/test_app/app.sh && /tmp/test_app/app.sh
+    shell: ./app.sh
+    args:
+        chdir: /tmp/test_app
