@@ -7,5 +7,6 @@
       dest: /tmp
       owner: root
       group: root
+      mode: preserve
   - name: run example app
-    shell: /tmp/test_app/app.sh
+    shell: chmod +x /tmp/test_app/app.sh && /tmp/test_app/app.sh
